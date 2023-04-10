@@ -1,0 +1,14 @@
+[project]
+name = "Is it a bird?"
+version = "0.0.1"
+description = "Fastai learning exercise"
+authors = [{ name = "Caroline Mimeault", email = "carolinemimeault@gmail.com" }]
+dependencies = ["fastai>=2.7.12", "torch>=2.0.0"]
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
